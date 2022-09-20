@@ -41,7 +41,7 @@ def index(request):
 #     with open("data.json", "w",encoding='utf-8')as f:
 #         json_str=json.dump(new_list,f,ensure_ascii=False,indent=3)
 #     print(json_str)
-    with open ('data.json','r',encoding='utf-8')as file:
+    with open ('book/data.json','r',encoding='utf-8')as file:
         temp=json.load(file)
     print(temp)
     return render(request,'data.html', {'final_list':temp})
