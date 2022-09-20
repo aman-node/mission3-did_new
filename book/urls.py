@@ -4,4 +4,5 @@ from book import views
 
 urlpatterns = [
     path('',views.index,name='start'),
+    path('ok/',views.refresh,name="refresh"),
 ]

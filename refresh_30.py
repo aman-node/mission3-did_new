@@ -1,4 +1,5 @@
 from fileinput import filename
+from operator import truediv
 from textwrap import indent
 from tkinter import N, W
 import requests
@@ -14,10 +15,10 @@ def refresh():
 
     s = soup.find('div', class_='listTable').find('tbody').find_all('tr')
     new_list=[]
-    t=0
+    # t=0
     for i in s:
-        t+=1
-        if t==6:break
+        # t+=1
+        # if t==6:break
         title = i.find("td", class_="title").find("a").text
         author = i.find_all("td", class_="author")[0].text
         link = i.find("td", class_="title").find("a").get('href')
@@ -38,15 +39,15 @@ def refresh():
         var={"smallUrl":images}
         new_list.append({"title":title,"author":author,"image":var})
         # with open("data.json", "wb",encoding='utf-8') as f:
-    with open("C:\\Users\\91770\\Desktop\\mission_2_did\\mission_2_did\\data.json", "w",encoding='utf-8')as f:
+    with open("C:\\Users\\91770\\Desktop\\mission2_DID-develope\\mission2_DID-develope\\data.json", "w",encoding='utf-8')as f:
         json_str=json.dump(new_list,f,ensure_ascii=False,indent=3)
         print(json_str)
-    with open ('C:\\Users\\91770\\Desktop\\mission_2_did\\mission_2_did\\data.json','r',encoding='utf-8')as file:
+    with open ('C:\\Users\\91770\\Desktop\\mission2_DID-develope\\mission2_DID-develope\\data.json','r',encoding='utf-8')as file:
         temp=json.load(file)
     print(temp)
 
 schedule.every(30).minutes.do(refresh)
 
-while True:
+while true; do
     schedule.run_pending()
     time.sleep(1)
