@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	{% comment %} <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> {% endcomment %}
+	<title>Document</title>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">	
+</head>
+<body onload="initClock()">
+	{% comment %} {{final_list|safe}} {% endcomment %}
+	<nav class="navbar navbar-dark navstyle navbar-expand-lg" >
+		<div class="container-fluid stick nav-count">
+			<!-- date time -->
+			<div class="datetime">
+				<div class="date">
+					<span id="dayname">Day</span>
+					<span id="month">Month</span>
+					<span id="daynum">00</span>
+					<span id="year">Year</span>
+				</div>
+				<div class="time">
+					<span id="hour">00</span>:
+					<span id="minutes">00</span>:
+					<span id="seconds">00</span>
+					<span id="period">AM</span>
+				</div>
+			  </div>
+			  <a class="navbar-brand" href="#"><img src="{% static 'images/Untitled-2.jpg' %}" alt="" srcset="" class="img"></a>
+			  <h1 class="logo">Wise Neosco</h1>
+		</div>
+	</nav>
+	<div class="container-fluid stick fluid">
+		<!-- container 1 -->
+		<div class="row1">
+			<div class="col-lg-12 mb-4 displayContaint ">
+				<div id="myimg"> <span class="book-container"> <div  class="book" > <img src="{{final_list.0.image.smallUrl}}" alt="" srcset="" id="imgid"></div></span></div>
+					<div class="slidertext">
+						<h1 class="midtex" id="title_id">{{final_list.0.title}}</h1>
+						<img src="{% static 'images/line.png'%}" alt="" srcset="" class="lineimg" >
+						<h1 class="midtex" id="pubdate_id">{{final_list.0.author}}</h1>
+					</div>
+				</div>
+			</div>
+	  </div>
+	<!-- container 2 -->
+	<div class="cardcontainer ">
+
+		<div class="row " id="booksdiv" >
+			{% for i in final_list %}
+			
+			<div class="col-lg-2 col-md-4 mb-4 bookCardBody ">
+				
+			 	<img src={{i.image.smallUrl}} class="card-img-top imgcon" alt="#" data-title="{{i.title}}" data-pubdate="{{i.author}}">
+				<img src="{% static 'images/line.png'%}" class="bottomBar">
+				<div class="card-body">
+					<h6 class="tile">{{i.title}}</h6><br>
+					<p class="auth">{{i.author}}</p>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+
+	<footer class="footer">
+		<p>Designed and developed by Aman Srivastava </p>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="{% static 'javascript/index.js' %}"></script>
+	<script>
+	  AOS.init({
+	delay: 10,
+  	duration: 1500,
+	  });
+
+	
+	</script>
+    <script>
+        function imgWindow() {
+         window.open("image") }
+       </script>
+</body>
+</html>

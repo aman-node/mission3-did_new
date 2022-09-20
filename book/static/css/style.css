@@ -1,0 +1,725 @@
+*{
+    position: relative;
+}
+@media screen and (orientation: landscape){
+    .navbarset{
+        height: 9vh;
+    }
+    .row1{
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        height: 38vh 
+    }
+    .row{
+        height:43vh
+    }
+
+    body{
+        background-color:#03263f ;
+        /* background-image: "/images/c88502e69c38c222076d63ded54037a1.jpg"; */
+    }
+    .navstyle{
+    
+        background-color: #03263f;
+        position: relative;
+        height: 10vh;
+    }
+    .datetime{
+        color: #fff;
+        position: absolute;
+        right: 1vh;
+        width: 20vw;
+        /* border: 3px solid #2e94e3; */
+        padding: 1vh 1vh;
+        font-family:"segoe ui",sens-serif;
+        border-radius: 5px;
+        height: 8vh;
+    }
+    /* .book:hover{
+        /* background-color: #ffffff; */
+        /* box-shadow:0 0 30px #ffffff; */
+    /* } */
+    
+    .date{
+        font-size:1vw;
+        font-weight:600;
+        text-align: center;
+        letter-spacing:0.1vh;
+    }
+    .time{
+        font-size:3vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .time span:not(:last-child){
+        position: relative;
+        margin: 0 6px;
+        font-weight: 600;
+        text-align:center;
+        letter-spacing:1px;
+    }
+    .time span:last-child{
+        background:#2e94e3;
+        font-size: 1.3vw;
+        font-weight:600;
+        text-transform:uppercase;
+        margin-top:0.1vh;
+        padding: 0 1vh;
+        border-radius: 8vw;
+    }
+    
+    .img{
+        height: 7vh;
+        width: 12vh;
+        padding-left: 1vw;
+    }
+    .logo{
+        position: absolute;
+        top: 2vh;
+        left: 9vw;
+        font-size:5vh;
+        font-weight:600;
+        text-transform:uppercase;
+        color: #fff;
+        font-family:"Arial Bold",sans-serif; 
+    }
+    
+    .footer{
+        width: auto;
+        background-color: #03263f;
+        position: relative;
+        height: 3vh;
+        color: #fff;
+        font-family:"Arial Bold",sans-serif;
+        text-align: center;
+        padding-top: 0vh;
+    }
+    
+    
+    .xcard{
+        height:100%;
+        width: 180;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        border-radius: 8px;
+        overflow: hidden;
+        position: static;
+        
+    }
+    
+    .displayContaint{
+        /* display: flex; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 40vh;
+        width: 100%;
+        /* background-color: #0a314d; */
+        border-radius: 0vh;
+        overflow: hidden;
+        position: relative;
+        padding-right: 0vw;
+    
+    }
+    /* .displayCon{
+        background-color: #c6cdd2;
+        opacity: 0.5;
+    } */
+    
+    
+    #myimg{
+        top: 30px;
+        right: 300px;
+        float: right;
+    
+    } 
+    #myimg2{
+        bottom: 450px;
+        right: 300px;
+        float: right;
+        
+    }
+    
+    
+    .book-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        perspective: 38vw;
+        left : 0vw;
+        top : 1vh;
+        position: absolute;
+        
+    }
+    
+    
+    
+    .book {
+        width: 8vw;
+        height: 32vh;
+        position: relative;
+        transform-style: preserve-3d;
+        transform: rotateY(-30deg);
+        transition: 1s ease;
+        animation: 1s ease 0s 1 initAnimation;
+    }
+    
+    
+    .book > :first-child {
+        position: absolute;
+        background-color: red;
+        width: 10.5vw;
+        height: 30vh;
+        transform: translateZ(3vw);
+        background-color: #01060f;
+        border-radius: 0 0vh 0vh 0;
+        box-shadow: 1vh 1vh 20vh #666;
+    }
+    
+    .book::before {
+        position: absolute;
+        content: ' ';
+        /* background-color: blue; */
+        left: 0vh;
+        top: 0vh;
+        width: 2vw;
+        height: 29.5vh;
+        transform: translateX(8.8vw) rotateY(90deg);
+        background: linear-gradient(90deg, 
+        #fff 0%,
+        #f9f9f9 5%,
+        #fff 10%,
+        #f9f9f9 15%,
+        #fff 20%,
+        #f9f9f9 25%,
+        #fff 30%,
+        #f9f9f9 35%,
+        #fff 40%,
+        #f9f9f9 45%,
+        #fff 50%,
+        #f9f9f9 55%,
+        #fff 60%,
+        #f9f9f9 65%,
+        #fff 70%,
+        #f9f9f9 75%,
+        #fff 80%,
+        #f9f9f9 85%,
+        #fff 90%,
+        #f9f9f9 95%,
+        #fff 100%
+        );
+    }
+    
+    .book::after {
+        position: absolute;
+        top: 0vh;
+        left: 0vw;
+        content: ' ';
+        width: 10.3vw;
+        height: 30vh;
+        transform: translateZ(0vw);
+        background-color: #01060f;
+        border-radius: 0 2px 2px 0;
+        box-shadow: -10px 0 50px 10px #666;
+    }
+    
+    .cardcontainer{
+        background-color: #1f3e53;
+        margin: 0px 0px 0px 0px; 
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 47vh;
+    
+    }
+    
+    .tile{
+        color: #fff;
+        top: 0vh;
+        /* padding: 0vw 0vh 0vw 0vh; */
+        /* margin: 0vw 0vh 0vw 0vh; */
+        /* float: left; */
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        font-size: 2vh;
+        font-family: 'Noto Sans KR',sans-serif;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        max-width: 15vw;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 5vh;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        /* display: flex; */
+        /* position: absolute; */
+    }
+    .auth{
+        color: #fff;
+        /* top: 0; */
+        padding:0;
+        margin: 0;
+        height: auto;
+        /* padding: 1vw 0vh 0vw 3vh; */
+        /* margin: 0vw 0vh 0vw 0vh; */
+        /* float: left; */
+        text-align: center;
+        font-size: 2vh;
+        font-family: 'Noto Sans KR',sans-serif;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        max-width: 18vw;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        /* display: flex; */
+        /* position: absolute; */
+
+    }
+    
+    .bookCardBody{
+        height: 38vh;
+    }
+    
+    .imgcon{
+        height: 29vh;
+        width: 13vw;
+        /* height: 350px;
+        width: 250px; */
+        margin-bottom: 0vh;
+        padding-left: 0vw;
+        margin-left: 1vw;
+        cursor: pointer;
+    }
+    
+    .midtex{
+        color: #fff;
+        font-size: 3vh;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    .slidertext{
+        padding-top: 14vh;
+        padding-left:  0vw;
+        /* width: 400px; */
+        position: relative;
+        float:right;
+        padding-right: 28vw;
+    
+    }
+    
+    .lineimg{
+        width: 60vw;
+        height: 0.5vh;
+    }
+    
+    .bottomBar{
+        width:14.5vw;
+        height:-1vh;
+        padding: 0px -2vw 0px 0px;
+        margin: 0px 0px 0px 0vw;
+        /* float: top; */
+        display: flex;
+    }
+    
+    
+    .bookCardBody .imgcon:hover {
+        -webkit-transform: scale(1.1); 
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    
+    .hover_img {
+        -webkit-transform: scale(1.1); 
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    .card-body{
+        text-align: center;
+        font-size: 0vh;
+        margin:0;
+        padding: 0;
+    
+    }
+    .fluid{
+        height: 40vh;
+    }
+
+}
+/* <--------------------portrait-----------> */
+*{
+    position: relative;
+}
+@media screen and (orientation: portrait){
+    .navbarset{
+        height: 9vh;
+    }
+    .row1{
+        /* padding-top: 1vh;
+        padding-bottom: 1vh; */
+        height : 30vh; 
+    }
+    .row{
+        height:51vh;
+    }
+
+    body{
+        background-color:#03263f ;
+    }
+    .navstyle{
+    
+        background-color: #03263f;
+        position: relative;
+        height: 10vh;
+    }
+    .datetime{
+        color: #fff;
+        position: absolute;
+        right: 2vh;
+        width: 21vw;
+        /* border: 3px solid #2e94e3; */
+        /* padding: 1vh 1vh; */
+        font-family:"segoe ui",sens-serif;
+        border-radius: 5px;
+        height: 7vh;
+    }
+    /* .book:hover{
+        /* background-color: #ffffff; */
+        /* box-shadow:0 0 30px #ffffff; */
+    /* } */
+    
+    .date{
+        font-size: 2vw;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    .time{
+        font-size:2vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .time span:not(:last-child){
+        position: relative;
+        margin: 1vw 0vw;
+        font-weight: 500;
+        text-align: center;
+        letter-spacing: 0vw
+    }
+    .time span:last-child{
+        background:#2e94e3;
+        font-size: 3.3vw;
+        font-weight:700;
+        text-transform:uppercase;
+        margin-top:0.1vh;
+        padding: 0px 1vh;
+        border-radius: 6vw;
+    }
+    
+    .img{
+        height: 7vh;
+        width: 9vh;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+    .logo{
+        position: absolute;
+        top: 3vh;
+        left: 23vw;
+        font-size: 3vh;
+        font-weight: 600;;
+        text-transform:uppercase;
+        color: #fff;
+        font-family:"Arial Bold",sans-serif; 
+    }
+    
+    .footer{
+        width: auto;
+        background-color: #03263f;
+        position: relative;
+        height: 5vh;
+        color: #fff;
+        font-family:"Arial Bold",sans-serif;
+        text-align: center;
+        padding-top: 1vh;
+        font-size: 2vh;
+    }
+    
+    
+    .xcard{
+        height:100%;
+        width: 180;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        border-radius: 8px;
+        overflow: hidden;
+        position: static;
+        
+    }
+    
+    .displayContaint{
+        /* display: flex; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 30vh;
+        width: 100%;
+        /* background-color: #0a314d; */
+        border-radius: 0vh;
+        overflow: hidden;
+        position: relative;
+        padding-right: 0vh;
+    
+    }
+    /* .displayCon{
+        background-color: #c6cdd2;
+        opacity: 0.5;
+    } */
+    
+    
+    #myimg{
+        top: 30px;
+        right: 300px;
+        float: right;
+    
+    } 
+    #myimg2{
+        bottom: 450px;
+        right: 300px;
+        float: right;
+        
+    }
+    
+    
+    .book-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        perspective: 67vh;
+        left: 0vw;
+        top : 0vh;
+        position: absolute;
+        
+    }
+    
+    
+    
+    .book {
+        width: 11vw;
+        height: 1vh;
+        position: relative;
+        transform-style: preserve-3d;
+        transform: rotateY(-30deg);
+        transition: 1s ease;
+        animation: 1s ease 0s 1 initAnimation;
+    }
+    
+    
+    .book > :first-child {
+        position: absolute;
+        background-color: red;
+        width: 22vw;
+        height: 21vh;
+        transform: translateZ(7vw);
+        background-color: #01060f;
+        border-radius: 0 0vh 0vh 0;
+        box-shadow: 2vh 0vh 18vw #666;
+    }
+    
+    .book::before {
+        position: absolute;
+        content: ' ';
+        /* background-color: blue; */
+        left: -24vw;
+        top: 1vh;
+        width: 5vw;
+        height: 20vh;
+        transform: translateX(41vw) rotateY(90deg);
+        background: linear-gradient(90deg, 
+        #fff 0%,
+        #f9f9f9 5%,
+        #fff 10%,
+        #f9f9f9 15%,
+        #fff 20%,
+        #f9f9f9 25%,
+        #fff 30%,
+        #f9f9f9 35%,
+        #fff 40%,
+        #f9f9f9 45%,
+        #fff 50%,
+        #f9f9f9 55%,
+        #fff 60%,
+        #f9f9f9 65%,
+        #fff 70%,
+        #f9f9f9 75%,
+        #fff 80%,
+        #f9f9f9 85%,
+        #fff 90%,
+        #f9f9f9 95%,
+        #fff 100%
+        );
+    }
+    
+    .book::after {
+        position: absolute;
+        top: 0vh;
+        left: 0vw;
+        content: ' ';
+        width: 18.8vw;
+        height: 22vh;
+        transform: translateZ(-7vw);
+        background-color: #01060f;
+        border-radius: 0vw 0vw 0vh 0vh;
+        box-shadow: 0vh 3vw 4vw 3vw #666;
+    }
+    
+    .cardcontainer{
+        background-color: #1f3e53;
+        margin: 0vh 0vw 0vh 0vw; 
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 55vh;
+    
+    }
+    
+    .tile{
+        color: #fff;
+        /* padding: 0vw 6vw 0vw 0vh; */
+        /* margin: 0vw 0vh 0vw 0vh; */
+        /* float: left; */
+        text-align: center;
+        font-size: 2vh;
+        font-family: 'Noto Sans KR',sans-serif;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        max-width: 26vw;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 4.9vh;
+        padding: 0;
+        margin: 0;
+
+        /* display: flex; */
+        /* position: absolute; */
+    }
+    .auth{
+        color: #fff;
+        /* top: -2vh; */
+        /* padding: 0vw 0vh 0vw 0vh; */
+        /* margin: 0vw 0vh 0vw 0vh; */
+        /* float: left; */
+
+        text-align: center;
+        font-size: 1.5vh;
+        font-family: 'Noto Sans KR',sans-serif;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        max-width: 26vw;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 0;
+        margin: 0;
+        height: auto;
+        /* display: flex; */
+        /* position: absolute; */
+
+    }
+    
+    .bookCardBody{
+        height: 24.3vh;
+        width: 32vw;
+    }
+    
+    .imgcon{
+        height: 17vh;
+        width: 24vw;
+        /* height: 350px;
+        width: 250px; */
+        margin-bottom: 0vh;
+        padding-left: 1vw;
+        padding-right: 2vw;
+        margin-left: 2vw;
+        cursor: pointer;
+    }
+    
+    .midtex{
+        color: #fff;
+        font-size: 2vh;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    .slidertext{
+        padding-top: 8vh;
+        padding-left:  12vw;
+        /* width: 400px; */
+        position: relative;
+        float:right;
+        padding-right: 46vw;
+    
+    }
+    
+    .lineimg{
+        width: 46vw;
+        height: 3px;
+    }
+    
+    .bottomBar{
+        width: 27vw;
+        height: 0.5vh;
+        padding: 0vw 1vw 0vh 0vh;
+        margin: 0vw 0vw 0vh 0vh;
+        display: flex;
+
+    }
+    
+    
+    .bookCardBody .imgcon:hover {
+        -webkit-transform: scale(1.1); 
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    
+    .hover_img {
+        -webkit-transform: scale(1.1); 
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    .card-body{
+        text-align: center;
+        font-size: 0vh;
+        padding: 0;
+        margin: 0;
+        
+    
+    }
+    .fluid{
+        height: 30vh;
+    }
+
+}
