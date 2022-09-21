@@ -2,7 +2,6 @@ from unicodedata import name
 from urllib import response
 from django.shortcuts import render
 import requests
-import html_to_json
 from bs4 import BeautifulSoup
 import json
 def index(request):
