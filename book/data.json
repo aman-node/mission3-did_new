@@ -112,6 +112,13 @@
       }
    },
    {
+      "title": "대학일기 : 자까 만화",
+      "author": "자까",
+      "image": {
+         "smallUrl": "//img.libbook.co.kr/V2/BookImgK17/9788925563329.gif"
+      }
+   },
+   {
       "title": "나빌레라",
       "author": "최종훈",
       "image": {
@@ -224,10 +231,10 @@
       }
    },
    {
-      "title": "대학일기 : 자까 만화",
-      "author": "자까",
+      "title": "스타트업 = Startup : 아이템 발굴부터 투자 유치까지",
+      "author": "임성준",
       "image": {
-         "smallUrl": "//img.libbook.co.kr/V2/BookImgK17/9788925563329.gif"
+         "smallUrl": "//img.libbook.co.kr/V2/BookImgK14/9791190826297.jpg"
       }
    },
    {
@@ -287,6 +294,13 @@
       }
    },
    {
+      "title": "(新編) 사비백제사 : 사비백제의 새로운 인식",
+      "author": "부여군",
+      "image": {
+         "smallUrl": "//img.libbook.co.kr/V2/BookImgK15/9788963572574.gif"
+      }
+   },
+   {
       "title": "(알기 쉬운) 선형대수 (international student ver. 11th ed.)",
       "author": "Anton, Howard",
       "image": {
@@ -308,6 +322,13 @@
       }
    },
    {
+      "title": "공학수학. 1 (7th ed.)",
+      "author": "Zill, Dennis G.",
+      "image": {
+         "smallUrl": "//img.libbook.co.kr/V2/BookImgK13/9791191679076.gif"
+      }
+   },
+   {
       "title": "복지의 원리 : 대한민국 복지를 한눈에 꿰뚫는 10가지 이야기",
       "author": "양재진",
       "image": {
@@ -326,27 +347,6 @@
       "author": "이준구",
       "image": {
          "smallUrl": "//img.libbook.co.kr/V2/BookImgK14/9791185994703.gif"
-      }
-   },
-   {
-      "title": "채식주의자 : 한강 연작소설",
-      "author": "한강",
-      "image": {
-         "smallUrl": "//img.libbook.co.kr/V2/BookImgK10/9788936433598.gif"
-      }
-   },
-   {
-      "title": "여덟 단어 : 인생을 대하는 우리의 자세",
-      "author": "박웅현",
-      "image": {
-         "smallUrl": "//img.libbook.co.kr/V2/BookImgK1/9788956056531.gif"
-      }
-   },
-   {
-      "title": "칵테일, 러브, 좀비",
-      "author": "조예은",
-      "image": {
-         "smallUrl": "//img.libbook.co.kr/V2/BookImgK15/9791190174756.gif"
       }
    }
 ]

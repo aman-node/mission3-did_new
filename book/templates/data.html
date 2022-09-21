@@ -50,10 +50,10 @@
 	<!-- container 2 -->
 	<div class="cardcontainer ">
 
-		<div class="row " id="booksdiv" >
+		<div class="row "id="booksdiv">
 			{% for i in final_list %}
 			
-			<div class="col-lg-2 col-md-4 mb-4 bookCardBody ">
+			<div class="col-lg-2 col-md-4 mb-4 bookCardBody">
 				
 			 	<img src={{i.image.smallUrl}} class="card-img-top imgcon" alt="#" data-title="{{i.title}}" data-pubdate="{{i.author}}">
 				<img src="{% static 'images/line.png'%}" class="bottomBar">

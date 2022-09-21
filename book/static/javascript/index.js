@@ -98,7 +98,7 @@ function refreshBook(){
     $("#booksdiv .bookCardBody:nth-child("+(indexOfBook+1)+") img:nth-child(1)").addClass('hover_img');
     setTimeout(() => {$("#booksdiv .bookCardBody:nth-child("+(indexOfBook+1)+") img:nth-child(1)").removeClass('hover_img');
         
-    }, 1000);
+    }, 500);
     // $(".bookCardBody").hide()
 
     book = indexOfBook

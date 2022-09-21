@@ -242,7 +242,7 @@
     
     .tile{
         color: #fff;
-        top: 0vh;
+        top: 1vh;
         /* padding: 0vw 0vh 0vw 0vh; */
         /* margin: 0vw 0vh 0vw 0vh; */
         /* float: left; */
@@ -266,7 +266,7 @@
     }
     .auth{
         color: #fff;
-        /* top: 0; */
+        top: 1vh;
         padding:0;
         margin: 0;
         height: auto;
@@ -341,11 +341,18 @@
         transform: scale(1.1);
     }
     
-    .hover_img {
+    /* .hover_img {
         -webkit-transform: scale(1.1); 
         -moz-transform: scale(1.1);
         -o-transform: scale(1.1);
         transform: scale(1.1);
+    } */
+    .hover_img{
+        animation: beat .16s infinite alternate;
+    }
+    @keyframes beat {
+        to {transform: scale(1.1);
+            filter: blur(3px);}    
     }
     .card-body{
         text-align: center;
