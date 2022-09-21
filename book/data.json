@@ -21,13 +21,6 @@
       }
    },
    {
-      "title": "사피엔스",
-      "author": "Harari, Yuval N.",
-      "image": {
-         "smallUrl": "//img.libbook.co.kr/V2/BookImgK14/9788934972464.gif"
-      }
-   },
-   {
       "title": "재무관리 / 제4판",
       "author": "박정식",
       "image": {
@@ -35,10 +28,24 @@
       }
    },
    {
-      "title": "전지적 독자 시점 : 싱숑 장편소설. Part 1",
-      "author": "싱숑",
+      "title": "사피엔스",
+      "author": "Harari, Yuval N.",
       "image": {
-         "smallUrl": "//img.libbook.co.kr/V2/BookImgK14/9788934967316.gif"
+         "smallUrl": "//img.libbook.co.kr/V2/BookImgK14/9788934972464.gif"
+      }
+   },
+   {
+      "title": "물고기는 존재하지 않는다 : 상실, 사랑 그리고 숨어 있는 삶의 질서에 관한 이야기",
+      "author": "Miller, Lulu",
+      "image": {
+         "smallUrl": "//img.libbook.co.kr/V2/BookImgK14/9791189327156.gif"
+      }
+   },
+   {
+      "title": "현대재무관리 = Financial management / 제8판",
+      "author": "박정식",
+      "image": {
+         "smallUrl": "//img.libbook.co.kr/V2/BookImgK12/9788971104781.gif"
       }
    },
    {
@@ -46,6 +53,13 @@
       "author": "이종묵",
       "image": {
          "smallUrl": "//img.libbook.co.kr/V2/BookImgK4/8958621176.gif"
+      }
+   },
+   {
+      "title": "전지적 독자 시점 : 싱숑 장편소설. Part 1",
+      "author": "싱숑",
+      "image": {
+         "smallUrl": "//img.libbook.co.kr/V2/BookImgK14/9788934967316.gif"
       }
    },
    {
@@ -63,13 +77,6 @@
       }
    },
    {
-      "title": "유미의 세포들",
-      "author": "이동건",
-      "image": {
-         "smallUrl": "//img.libbook.co.kr/V2/BookImgK17/9788959135882.gif"
-      }
-   },
-   {
       "title": "법인세법론 / 개정 21판(2021년 개정증보판)",
       "author": "김완석",
       "image": {
@@ -84,17 +91,10 @@
       }
    },
    {
-      "title": "현대재무관리 = Financial management / 제8판",
-      "author": "박정식",
+      "title": "유미의 세포들",
+      "author": "이동건",
       "image": {
-         "smallUrl": "//img.libbook.co.kr/V2/BookImgK12/9788971104781.gif"
-      }
-   },
-   {
-      "title": "물고기는 존재하지 않는다 : 상실, 사랑 그리고 숨어 있는 삶의 질서에 관한 이야기",
-      "author": "Miller, Lulu",
-      "image": {
-         "smallUrl": "//img.libbook.co.kr/V2/BookImgK14/9791189327156.gif"
+         "smallUrl": "//img.libbook.co.kr/V2/BookImgK17/9788959135882.gif"
       }
    },
    {
@@ -161,6 +161,13 @@
       }
    },
    {
+      "title": "하얀 늑대들 : 윤현승 판타지 장편소설",
+      "author": "윤현승",
+      "image": {
+         "smallUrl": "//img.libbook.co.kr/V2/BookImgK6/8957630368.gif"
+      }
+   },
+   {
       "title": "Concurrences : Revue des droits de la concurrence",
       "author": "Institut de droit de la concurrence",
       "image": {
@@ -172,6 +179,13 @@
       "author": "한강",
       "image": {
          "smallUrl": "//img.libbook.co.kr/V2/BookImgK14/9788936434120.gif"
+      }
+   },
+   {
+      "title": "IFRS 중급회계 / 제10판",
+      "author": "신현걸",
+      "image": {
+         "smallUrl": "//img.libbook.co.kr/V2/BookImgK14/9791197504211.gif"
       }
    },
    {
@@ -193,6 +207,13 @@
       "author": "박경리",
       "image": {
          "smallUrl": "//img.libbook.co.kr/V2/BookImgK19/CPP0000145470.jpg"
+      }
+   },
+   {
+      "title": "핵심 미분적분학 (9th ed.)",
+      "author": "Stewart, James",
+      "image": {
+         "smallUrl": "//img.libbook.co.kr/V2/BookImgK14/9791160734126.jpg"
       }
    },
    {
@@ -245,6 +266,13 @@
       }
    },
    {
+      "title": "알지 못하는 아이의 죽음",
+      "author": "은유",
+      "image": {
+         "smallUrl": "//img.libbook.co.kr/V2/BookImgK9/9788971999639.gif"
+      }
+   },
+   {
       "title": "형사소송법 = Criminal procedure / 제13판 [실은 14판]",
       "author": "이재상",
       "image": {
@@ -273,6 +301,13 @@
       }
    },
    {
+      "title": "헤어질 결심 : 각본",
+      "author": "정서경",
+      "image": {
+         "smallUrl": "//img.libbook.co.kr/V2/BookImgK15/9788932474755.gif"
+      }
+   },
+   {
       "title": "복지의 원리 : 대한민국 복지를 한눈에 꿰뚫는 10가지 이야기",
       "author": "양재진",
       "image": {
@@ -284,6 +319,13 @@
       "author": "백태영",
       "image": {
          "smallUrl": "//img.libbook.co.kr/V2/BookImgK14/9788955017687.gif"
+      }
+   },
+   {
+      "title": "경제학원론 = Economics / 제6판",
+      "author": "이준구",
+      "image": {
+         "smallUrl": "//img.libbook.co.kr/V2/BookImgK14/9791185994703.gif"
       }
    },
    {
@@ -305,48 +347,6 @@
       "author": "조예은",
       "image": {
          "smallUrl": "//img.libbook.co.kr/V2/BookImgK15/9791190174756.gif"
-      }
-   },
-   {
-      "title": "처음 만나는 조경학",
-      "author": "김아연",
-      "image": {
-         "smallUrl": "//img.libbook.co.kr/V2/BookImgK19/9788933707708.gif"
-      }
-   },
-   {
-      "title": "해리포터. 5, 불사조 기사단 / 해리포터 20주년 개정판",
-      "author": "Rowling, J. K.",
-      "image": {
-         "smallUrl": "//img.libbook.co.kr/V2/BookImgK19/9788983927880.gif"
-      }
-   },
-   {
-      "title": "스타트업 = Startup : 아이템 발굴부터 투자 유치까지",
-      "author": "임성준",
-      "image": {
-         "smallUrl": "//img.libbook.co.kr/V2/BookImgK14/9791190826297.jpg"
-      }
-   },
-   {
-      "title": "(K-IFRS) 고급재무회계 / 제6판",
-      "author": "김문철",
-      "image": {
-         "smallUrl": "//img.libbook.co.kr/V2/BookImgK9/9788955016994.gif"
-      }
-   },
-   {
-      "title": "원가관리회계 = Cost & management accounting / 제7판[실은 8판]",
-      "author": "백태영",
-      "image": {
-         "smallUrl": "//img.libbook.co.kr/V2/BookImgK14/9788955017526.gif"
-      }
-   },
-   {
-      "title": "피아노문헌 연구",
-      "author": "김미옥",
-      "image": {
-         "smallUrl": "//img.libbook.co.kr/V2/BookImgK11/9788989544456.gif"
       }
    }
 ]
